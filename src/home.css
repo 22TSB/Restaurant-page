@@ -1,0 +1,85 @@
+/* SVG */
+
+.infoLogoAbout,
+.infoLogoClock,
+.infoLogoMap {
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    position: relative;
+    top: 22px;
+}
+
+.infoLogoMap {
+    top: 20px;
+}
+
+.infoAboutSVG,
+.infoClockSVG,
+.infoMapSVG {
+    content: url('src/info.svg');
+    width: 40px;
+    height: 40px;
+}
+
+.infoClockSVG {
+    content: url('src/clock.svg');
+}
+
+.infoMapSVG {
+    content: url('src/map.svg');
+}
+
+/* PARENT CARDS */
+
+.infoCard {
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* CHILDREN PARENT CARDS */
+
+.card {
+    background-color: white;
+    border: 4px solid black;
+    border-radius: 4px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: max-content;
+}
+
+.card2 {
+    padding: 20px 80px 20px 80px;
+}
+
+.card3 {
+    width: clamp(200px, 50%, 400px);
+}
+
+/* CARD ELEMENTS */
+
+.card1p,
+.card2p,
+.card3p {
+    font-size: 1.4rem;
+    max-width: 50ch;
+}
+
+.card1p {
+    display: flex;
+    justify-content: center;
+}
+
+.card1h,
+.card2h,
+.card3h {
+    font-size: 2.4rem;
+}
+
+.card2h,
+.card3h {
+    text-align: center;
+}

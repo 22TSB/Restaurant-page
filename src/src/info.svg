@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg fill="#000000" width="800px" height="800px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+  <!-- The outer circle with the inside filled with white and thicker stroke -->
+  <circle cx="8" cy="8" r="6.5" fill="white" stroke="black" stroke-width="2.5"/>
+
+  <!-- The vertical line of "i" -->
+  <rect x="7.37" y="6.7" width="1.25" height="5" fill="black"/>
+
+  <!-- The dot of the "i" -->
+  <circle cx="8" cy="4.85" r="0.65" fill="black"/>
+</svg>

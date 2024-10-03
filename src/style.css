@@ -1,0 +1,133 @@
+.rem2 {
+    font-size: 2rem;
+}
+
+.textalign {
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+}
+
+/* NAV */
+
+header {
+    background-color: whitesmoke;
+    padding: 16px;
+    box-shadow: 8px 4px 20px gray;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav button {
+    background-color: white;
+    border: 4px solid black;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    padding: 12px;
+    transition: 0.5s ease-in-out;
+}
+
+header nav button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+/* PARENT ELEMENT */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 100px 200px 100px 200px;
+    border-radius: 40px;
+    background-color: whitesmoke;
+    box-shadow: 8px 4px 20px gray;
+}
+
+/* CONTENT TITLE */
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.h1Title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.wheat1,
+.wheat2 {
+    content: url('src/food.svg');
+    width: 40px;
+    height: 40px;
+    rotate: 320deg;
+}
+
+.wheat2 {
+    rotate: 40deg;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    font-size: 1.5rem;
+    background-color: whitesmoke;
+    margin-top: auto;
+}
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 1050px) {
+    .container {
+        margin: 0;
+        padding-bottom: 140px;
+        border-radius: 0;
+    }
+    footer {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    footer {
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .title h1 {
+        font-size: 2rem;
+    }
+}
+
+/*  */
+
+.container-menu {
+    display: flex;
+    gap: 40px;
+}
+
+.p-menu {
+    font-size: 1.6rem;
+    max-width: 35ch;
+}
+
+.image-menu {
+    border: 4px solid gray;
+    padding: 100px;
+}
