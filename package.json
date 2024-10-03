@@ -4,7 +4,9 @@
   "description": "in work",
   "main": "index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "dev": "webpack serve",
+    "deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "keywords": [],
   "author": "22tsb <bogdan22tsb@gmail.com>",
