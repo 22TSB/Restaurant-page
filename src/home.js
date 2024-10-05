@@ -13,7 +13,7 @@ wheat1.setAttribute('class', 'wheat1');
 h1Title.setAttribute('class', 'h1Title');
 wheat2.setAttribute('class', 'wheat2');
 
-h1Title.textContent = 'Restaurant name lol';
+h1Title.textContent = 'Restaurant name';
 
 title.append(wheat1);
 title.append(h1Title);
